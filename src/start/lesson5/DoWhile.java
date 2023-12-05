@@ -6,7 +6,7 @@ public class DoWhile {
         do {
             System.out.println(count);
             count++;
-        } while (count > 100);
+        } while (count < 100);
 
         System.out.println("Проверка неработоспособности while");
         while (count < 0) {
@@ -14,3 +14,6 @@ public class DoWhile {
         }
     }
 }
+//While перевод - Пока (что-то не произойдет)
+//While сначала проверяет, потом делает
+//DoWhile сначала делает, потом проверяет

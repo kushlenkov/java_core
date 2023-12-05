@@ -20,6 +20,10 @@ public class Array {
 //        //Вывод с индексом
 //        System.out.println(array[1]);
 
+        //Без инициализации
+        int[] arrayNull = new int[10];
+        System.out.println(Arrays.toString(arrayNull));
+
 
         int[] array = {x, y};
         int[] array2 = new int[2];
@@ -33,6 +37,17 @@ public class Array {
         //Столица Катара и записать в массив (какого-то типа)
         char[] answer = {'Д','о','х','а'};
         System.out.println(Arrays.toString(answer));
+
+
+        //Строки
+        String text = "Yuri";
+        String text2 = text;
+        text2 = text2 + " hello";
+        System.out.println(text);
+        System.out.println(text2);
+
+
+
 
     }
 }
