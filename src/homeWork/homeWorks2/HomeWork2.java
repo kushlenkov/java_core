@@ -42,7 +42,7 @@ public class HomeWork2 {
         // Задание №1: Написать цикл, который будет прибавлять число к result до тех пор,
         // пока не получиться больше 1_000_000.
         // Дано:
-        double increment = 0.01123;
+        double increment = -0.01123;
         double result = 0;
         long count = 0;
         // Вывести на экран, количество итераций, которое потребовалось, чтобы дойти до миллиона.
@@ -60,7 +60,7 @@ public class HomeWork2 {
             System.out.println(count);
         }
 
-//        Ответ
+//        Ответ (тоже не работает с отрицательным числом)
 //        while (result < 1_000_000) {
 //            result += increment;
 //            count ++;
