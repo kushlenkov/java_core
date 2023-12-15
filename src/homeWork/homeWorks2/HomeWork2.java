@@ -1,5 +1,9 @@
 package homeWork.homeWorks2;
 
+import start.lesson5.Array;
+
+import java.util.Arrays;
+
 public class HomeWork2 {
     public static void main(String[] args) {
         //Базовый
@@ -42,7 +46,7 @@ public class HomeWork2 {
         // Задание №1: Написать цикл, который будет прибавлять число к result до тех пор,
         // пока не получиться больше 1_000_000.
         // Дано:
-        double increment = -0.01123;
+        double increment = 0.01123;
         double result = 0;
         long count = 0;
         // Вывести на экран, количество итераций, которое потребовалось, чтобы дойти до миллиона.
@@ -75,6 +79,55 @@ public class HomeWork2 {
 //        } while (result < 1_000_000);
 //        System.out.println(count);
 
+        System.out.println("-----------------------------------------------------");
+
+        // Задание №2: Дан массив единиц, произвольной длины. Создать цикл, который заменяет каждый
+        // нечетный элемент на 0;
+        // Например, дано: [1,1,1,1,1]
+        // Ожидаемый результат: [0,1,0,1,0]
+        // Подсказка: прочитай про операнд "%".
+        int[] array = {1, 1, 1, 1, 1};
+        for (int i = 0; i < array.length; i++) {
+            if (i % 2 == 0) {
+                array[i] = 0;
+            }
+        }
+        System.out.println(Arrays.toString(array));
+
+        System.out.println("-----------------------------------------------------");
+
+        //Задача №3
+        //Создать два массива чисел:
+        // 1,2,5,7,10
+        // 2,3,2,17,15
+        // Создать массив чисел, в котором будут: все числа из этих двух массивов,
+        // и результат умножения чисел с одинаковым порядковым номером
+        //
+        //Ожидаемый результат:
+        //1,2,5,7,10,2,3,2,17,15,2,6,10,119,150
+        //(первый массив - 1,2,5,7,10), (второй массив - 2,3,2,17,15),
+        //(результат перемножения - (1*2), (2*3), (5*2), (7*17), (10*15)
+        int[] numbers1 = {1, 2, 5, 7, 10};
+        int[] numbers2 = {2, 3, 2, 17, 15};
+        int[] numbers3 = new int[numbers1.length * 3];
+        System.out.println(Arrays.toString(numbers3)); //Изучал массив 3
+        for (int i = 0; i < numbers1.length; i++) {
+            numbers3[i] = numbers1[i];
+            numbers3[i + 5] = numbers2[i];
+            numbers3[i + 10] = numbers1[i] * numbers2[i];
+        }
+        //1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+        //Сам не смогу решить
+        System.out.println(Arrays.toString(numbers3));
+
+        System.out.println("-----------------------------------------------------");
+
+        //Задача №4
+        //В строке "Hello world!" заменить l на r, сделать все буквы заглавными, выбрать первые 8 символов
+        String HW = "Hello world!";
+        String HWver2 = HW.replace("l", "r").toUpperCase().substring(0, 8);
+        System.out.println(HWver2);
+        
     }
 }
 

@@ -1,5 +1,7 @@
 package start.lesson5;
 
+import java.util.Arrays;
+
 public class MultiArray {
     public static void main(String[] args) {
         //Ограбили магазин. Вор был ростом 178

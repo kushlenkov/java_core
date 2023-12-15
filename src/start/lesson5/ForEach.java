@@ -5,7 +5,6 @@ public class ForEach {
         int[] numbers = {1, 2, 3, 4};
         for (int number : numbers) {
             System.out.println(number);
-
         }
     }
 }
