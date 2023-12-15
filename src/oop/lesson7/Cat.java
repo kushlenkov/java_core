@@ -1,10 +1,14 @@
 package oop.lesson7;
 
+import java.util.Arrays;
+
 public class Cat {
     //Атрибут (свойство объекта, поле)
-    String color;
+    //Модификаторы доступа private public default (по умолчанию всегда default)
+    //Программисты договорились писать всегда private и всегда использовать get и set
+    public String color;
     double weight;
-    String ownerName;
+     String ownerName;
 
     //Конструктор
     public Cat(String colorName, double weightCat, String owner) {
@@ -34,6 +38,13 @@ public class Cat {
         return "Ничего";
     }
 
+    //varArgs ... можно указывать только в конце (последний аргумент в методе)
+    //т.к. может включать в себя бесконечное число аргументов
+    public void feed(String giver, String ...product) {
+        System.out.printf("Человек %s дает коту : %s", giver, Arrays.toString(product));
+    }
+
+    //Перегрузка  (overloading) метода hunt
     public void hunt(String timesOfDay) {
         if (timesOfDay.equals("Утро")) {
             System.out.println("Мышь");
@@ -42,6 +53,7 @@ public class Cat {
         }
     }
 
+    //Перезапись метода
     @Override
     public String toString() {
         return "Cat{" +
