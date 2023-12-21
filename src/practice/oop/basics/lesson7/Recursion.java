@@ -1,4 +1,4 @@
-package practice.oop.lesson7;
+package practice.oop.basics.lesson7;
 
 public class Recursion {
 

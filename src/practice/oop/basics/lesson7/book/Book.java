@@ -1,4 +1,4 @@
-package practice.oop.lesson7.book;
+package practice.oop.basics.lesson7.book;
 
 //Создать класс книга с атрибутами: Имя книги, имя автора, количество страниц, документальный(да/нет)
 //Методы класса книга:

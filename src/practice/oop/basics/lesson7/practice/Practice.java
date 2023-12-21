@@ -1,4 +1,4 @@
-package practice.oop.lesson7.practice;
+package practice.oop.basics.lesson7.practice;
 
 public class Practice {
     //Долой отечественный автопром, сделаем машину сами!

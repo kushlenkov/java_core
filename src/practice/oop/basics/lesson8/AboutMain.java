@@ -1,4 +1,4 @@
-package practice.oop.lesson8;
+package practice.oop.basics.lesson8;
 
 public class AboutMain {
     public static void main(String[] args) {

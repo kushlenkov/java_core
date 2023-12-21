@@ -1,7 +1,7 @@
-package practice.oop.lesson7.zoo;
+package practice.oop.basics.lesson7.zoo;
 
-import practice.oop.lesson7.Cat;
-import practice.oop.lesson7.Dog;
+import practice.oop.basics.lesson7.Cat;
+import practice.oop.basics.lesson7.Dog;
 
 public class Zoo {
     private Cat cat;

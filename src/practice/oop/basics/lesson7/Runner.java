@@ -1,6 +1,6 @@
-package practice.oop.lesson7;
+package practice.oop.basics.lesson7;
 
-import practice.oop.lesson7.zoo.Zoo;
+import practice.oop.basics.lesson7.zoo.Zoo;
 
 public class Runner {
     public static void main(String[] args) {

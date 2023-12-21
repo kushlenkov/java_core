@@ -1,6 +1,6 @@
-package practice.oop.lesson7;
+package practice.oop.basics.lesson7;
 
-import practice.oop.lesson7.book.Book;
+import practice.oop.basics.lesson7.book.Book;
 
 public class Task {
     public static void main(String[] args) {

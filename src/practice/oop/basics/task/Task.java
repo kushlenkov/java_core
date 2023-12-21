@@ -1,4 +1,4 @@
-package practice.oop.task;
+package practice.oop.basics.task;
 
 public class Task {
     //Создать сеть ресторанов, которая обладает общими, для всех ресторанов, запасами продуктов: сосиски, хлеб.
@@ -10,12 +10,15 @@ public class Task {
     public static void main(String[] args) {
         Rest restOne = new Rest();
         Rest restTwo = new Rest();
+
         restOne.makeEat();
         restOne.chestInfo();
         restOne.addEat();
         restOne.chestInfo();
         restOne.makeEat();
+
         restTwo.makeEat();
+
         restOne.chestInfo();
         restOne.addEat();
         restOne.chestInfo();

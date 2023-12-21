@@ -1,4 +1,4 @@
-package practice.oop.task;
+package practice.oop.basics.task;
 
 //Создать сеть ресторанов, которая обладает общими, для всех ресторанов, запасами продуктов: сосиски, хлеб.
 public class Rest {
