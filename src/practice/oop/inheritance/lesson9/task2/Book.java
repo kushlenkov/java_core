@@ -10,7 +10,6 @@ public class Book {
     public static final Country ARGENTINA = new Country ("испанский язык", "континент: Южная Америка", 47_000_000L);
     public static final Country ITALY = new Country ("итальянский язык", "континент: Евразия", 58_000_000L);
 
-
     //Приватный конструктор. Нужен для того, чтобы никто не мог создать экземпляр класса Book
     private Book() {
     }
