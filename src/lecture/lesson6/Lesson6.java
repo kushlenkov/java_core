@@ -1,6 +1,6 @@
 package lecture.lesson6;
 
-import homeWork.Tests;
+import homeWorks.Tests;
 
 public class Lesson6 {
     public static void main(String[] args) {
